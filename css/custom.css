@@ -1,0 +1,457 @@
+.field_error {
+  color: red;
+}
+.accordion .accordion__hide {
+  background: #f4f4f4;
+  height: 65px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.email_verify_otp{
+  display: none;
+}
+
+.height_60px {
+  height: 60px;
+}
+
+#email_otp_result {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#social_share_box{
+	margin-top:20px;
+	width:250px;
+}
+
+#social_share_box img{
+	margin-left:10px;
+}
+
+/*-----------------------------------*\
+  #INSTRUCTOR
+\*-----------------------------------*/
+
+.instructor { padding: 0px 100px; margin-bottom: 60px; }
+
+.instructor .section-title {
+  text-align: center;
+  margin-bottom: 60px;
+  color: #313131;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.instructor-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding: 0 15px;
+  width: 1345px;
+}
+
+.instructor-card {
+  background: hsl(228, 33%, 97%);
+  padding: 20px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  text-align: center;
+  transition: var(--default-transition);
+}
+
+.instructor-card:hover {
+  background: var(--white);
+  box-shadow: 0 10px 30px hsla(0, 0%, 0%, 0.1);
+}
+
+.instructor-img-box {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.instructor-img-box img {
+  width:  100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--default-transition);
+}
+
+.instructor-card:hover .instructor-img-box img { transform: scale(1.1); }
+
+.instructor-card .social-link {
+  position: absolute;
+  bottom: -60px;
+  left:   50%;
+  transform: translateX(-50%);
+  display:         flex;
+  justify-content: center;
+  align-items:     center;
+  gap: 20px;
+  transition: var(--default-transition);
+}
+
+.instructor-card .social-link a {
+  background: var(--ultramarine-blue);
+  color: var(--white);
+  width:  35px;
+  height: 35px;
+  display:         flex;
+  justify-content: center;
+  align-items:     center;
+  border-radius: 4px;
+  transition: var(--default-transition);
+}
+
+.instructor-card .social-link a:hover { background: var(--red-orange-color-wheel); }
+
+.instructor-card:hover .social-link { bottom: 20px; }
+
+.instructor-name {
+  color: var(--oxford-blue);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-7);
+  margin-bottom: 10px;
+  transition: var(--default-transition);
+}
+
+.instructor-card:hover .instructor-name { color: var(--red-orange-color-wheel); }
+
+.instructor-title {
+  color: #088178;
+  font-weight: bold;
+  font-family: Poppins;
+  font-size: var(--fs-6);   
+}
+
+.instructor-grid { grid-template-columns: repeat(4, 1fr); }
+
+
+#course-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2.5vw;
+}
+
+#course-inner h3 {
+  padding: 35px 0 25px 0;
+  color: #222;
+}
+
+#course-inner p {
+  color: #606063;
+}
+
+#course-inner hr {
+  height: 1px;
+  background: #606063;
+  margin-top: 40px;
+}
+
+#course-inner .overview {
+  width: 70%;
+}
+
+#course-inner .overview .course-img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+#course-inner .overview .course-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#course-inner .overview .course-head .c-name {
+  width: 70%;
+}
+
+#course-inner .overview .course-head .c-name h2 {
+  color: #222;
+}
+
+#course-inner .overview .course-head .c-name .star {
+  margin: 6px 0;
+  align-content: center;
+}
+
+#course-inner .overview .course-head .c-name .star i {
+  color: #ffbd27;
+  font-size: 0.9rem;
+}
+
+#course-inner .overview .course-head .c-name .star p {
+  color: #ffbd27;
+  margin-top: 0px;
+  margin-right: -5px;
+  font-weight: 600;
+}
+
+#course-inner .overview .course-head .c-name .star .rating{
+  color: #606063;
+  display: flex;
+}
+
+#course-inner .overview .course-head .c-name .star p span{
+  color: #606063;
+  padding: 0px;
+  border-radius: 0px;
+  font-size: 15px;
+  background-color: #ffffff;
+}
+
+#course-inner .overview .course-head .c-name p {
+  font-size: 15px;
+}
+
+#course-inner .overview .course-head span {
+  padding: 16px 22px;
+  border-radius: 5px;
+  color: #088178;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #e3ffe9;
+}
+
+#course-inner .learn p{
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+#course-inner .learn p i {
+  color: #088178;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+#course-inner .tutor {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#course-inner .tutor img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: -10px 20px 0 0;   
+}
+
+#course-inner .tutor .small-tutor {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: -10px 5px 0 0;   
+}
+
+#course-inner .tutor h5 {
+  font-size: 15px;
+}
+
+#course-inner .tutor h6 {
+  font-size: 13px;
+}
+
+#course-inner .tutor-det{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#course-inner .enroll {
+  width: 400px;
+  padding: 0 40px 40px 40px;
+  border-radius: 11px;
+  box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
+}
+
+#course-inner .enroll h3 {
+  padding-bottom: 10px;
+}
+
+#course-inner .enroll p {
+  font-size: 15px;
+  color: #606063;
+  margin: 15px 0;
+}
+
+#course-inner .enroll p i {
+  color: #088178;
+  font-weight: 500;
+  margin-right: 18px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#course-inner .enroll-btn {
+  padding: 0px -30px 35px 720px;  
+}
+
+#course-inner .enroll-btn a {
+  text-decoration: none;
+  font-size: .8rem;
+  padding: 13px 45px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #fff;
+  background-color: #088178;
+}
+
+.buy_now{
+	background:#337ab7 none repeat scroll 0 0;
+}
+
+.coupon_style{width: 100%;height: 50px;}
+.mr5{margin-right:5px;}
+
+#coupon_result{
+	padding: 33px;
+    padding-top: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.htc__shopping__cart a span.htc__wishlist {
+  background: #088178;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 9px;
+  height: 17px;
+  line-height: 19px;
+  position: absolute;
+  right: 18px;
+  text-align: center;
+  top: -4px;
+  width: 17px;
+  margin-right: 52px;
+}
+
+.htc__shopping__cart a span.htc__compare {
+  background: #088178;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 9px;
+  height: 17px;
+  line-height: 19px;
+  position: absolute;
+  right: -16px;
+  text-align: center;
+  top: -4px;
+  width: 17px;
+  margin-right: 52px;
+}
+
+#free-downloads {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 1010px;
+  text-align: center;
+  padding: 18px 18px;
+  box-shadow: 20px 20px 34px rgb(0 0 0 / 3%);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 0px 0px;  
+}
+
+.columns2 {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 14px;
+}
+
+.price .remove i {
+  color: #212121;
+    display: inline-block;
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+.price .remove i:hover {
+  color: #ee393e;
+}
+
+.button {
+  background-color: #088178;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.button:hover {
+  background: #03524c none repeat scroll 0 0;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns2 {
+    width: 100%;
+  }
+}
+
+.instamojo_error{
+	color:red;
+	font-size:15px;
+	line-height:1.5;
+	font-weight: bold;
+    margin-bottom: 20px;
+}
